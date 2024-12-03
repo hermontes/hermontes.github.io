@@ -27,8 +27,7 @@ body {
 
 nav .regular-navigation {
   max-width: 100%;
-  padding: 0em 5em;
-  border-radius: 5px;
+  padding: 0em 5em 0em 1em;
   margin-bottom: 0.7em;
   border-bottom: 2px solid;
   /* remove list styling from nav */
@@ -132,7 +131,7 @@ ul a {
   .burger-menu {
     position: absolute;
     top: 1.5em;
-    right: 1.1em;
+    right: 2em;
   }
 
   a {
@@ -165,6 +164,11 @@ ul a {
 
 /* 0 to 600 do this */
 @media (max-width: 600px) {
+
+  nav .regular-navigation {
+    padding: 0em 1em 0em 1em;
+  }
+
   nav .burger-menu {
     display: flex;
   }
