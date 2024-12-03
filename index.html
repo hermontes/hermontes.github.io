@@ -12,49 +12,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body><!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
+    <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+  </svg> -->  
  
-    <div class="page">
+    <div class="flex container">
 
-      <header class="">
+      <nav role="navigation" >
       
-        <ul class="navigation">
-            <li class="item1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
-              <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
-              </svg> 
-            <span>&nbsp;Hermon Tesfatsion</span>
-          </li>
+        <div class="regular-navigation">
+          <ul class="flex navigation">
 
-            <li class="item2">
-              <a href="Hermon Tesfatsion Resume.pdf">Resume</a> 
+              <li class="flex item1">
+                
+                <!-- <span class="flex computerLogo" hidden>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
+                  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                  </svg>&nbsp;Hermon Tesfatsion
+                </span> -->
+              Hermon Tesfatsion: SWE
+              </li>
 
-            </li>
-            <li class="item3">
-              <a href="">About</a>
+            <div class="burger-menu">
+              <button onclick="openBurgerMenu()" class="flex burger-button" role="button"> 
 
-            </li>
+                <img id="burger-menu-image" src="menu.png" alt="Close menu burger icon">
+
+              </button>
+
+            </div>
+            <div class="flex navRightSide">
+              <li class="item2">
+                <a href="Hermon Tesfatsion Resume.pdf">Resume</a> 
+    
+              </li>
+              <li class="item3">
+                <a href="">About</a>
+    
+              </li>
+            </div>
+            
+
             
 
           </ul>
-      </header>
+      </div>
+      </nav>
+
+
+      <div id="close-burger-menu" class="header-menu-popout">
+        <div class="overlay-content">
+
+        
+          <div class="burger-menu">
+            <button onclick="closeBurgerMenu()" class="flex burger-button" role="button"> 
+
+              <img src="close.png" alt="X icon indicating closing button">
+
+            </button>
+
+          </div>
+          <li class="item2">
+            <a href="Hermon Tesfatsion Resume.pdf">Resume</a> 
+
+          </li>
+          <li class="item3">
+            <a href="">About</a>
+
+          </li>
+          <li class="item3">
+            <a href="">About</a>
+
+          </li>
+          <li class="item3">
+            <a href="">About</a>
+
+          </li><li class="item3">
+            <a href="">About</a>
+
+          </li><li class="item3">
+            <a href="">About</a>
+
+          </li>
+
+
+
+        </div>
+      </div>
+
+
+
+
+
 
       <div id="content">
-        <div class="main-page">
+        
+        <div class="flex main-page">
 
           <!-- Prof Experience -->
-          <div class="experience_container">
+          <div class="flex experience-container">
             <div class="box_item">
-              <p>first</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+              </p>
                 <div>
                   <hr>
-                  <p>wefwefewf</p>
+                  <div class="flex skills">
+                    <div class="individual-skill">html</div>
+                    <div class="individual-skill">css</div>
+                  </div>
+
+
                 </div>
             </div>
          
             <div class="box_item">
-              <p>second</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+              </p>
+                <div>
+                  <hr>
+                  <div class="flex skills">
+                    <div class="individual-skill">java</div>
+                    <div class="individual-skill">react</div>
+                  </div>
+
+
+                </div>
             </div>
 
           </div>
@@ -62,13 +146,29 @@
         </div>
 
       </div>
+      
+      <footer class="footer-contact-me">
+        
+        <div>
+          Contact Me: hermontes6@gmail.com 
 
+        </div>
 
-      <footer>
-        Contact Me: hermontes6@gmail.com </footer>
+        <div>
+          Linkedin
+        </div>
+
+        <div>
+          Linkedin
+        </div>
+      </footer>
 
     </div>
-    <script src="" async defer></script>
+    
+
+    
+
+    <script src="index.js" async defer></script>
   </body>
 </html>
 
