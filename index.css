@@ -5,9 +5,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #2C5F2D;
+  color: #19747E;
   font-size: 16px;
-  background-color:#F2F5DF ;
+  background-color:#A9D6E5 ;
 }
 .flex {
   display: flex;
@@ -29,7 +29,7 @@ nav .regular-navigation {
   max-width: 100%;
   padding: 0em 5em 0em 1em;
   margin-bottom: 0.7em;
-  border-bottom: 2px solid;
+
   /* remove list styling from nav */
   .navigation {
     justify-content: space-between;
@@ -47,8 +47,7 @@ nav .regular-navigation {
   }
 
   .navRightSide a:hover {
-    color: #6a994e;
-
+    color: #D1E8E2;
     cursor: pointer;
   }
 
@@ -72,7 +71,7 @@ nav .regular-navigation {
 ul li {
   padding: 0px;
 }
-ul a {
+a {
   color: inherit;
   text-decoration: none;
   padding-bottom: 2px;
@@ -102,7 +101,7 @@ ul a {
   /* any transform changes should happen over 0.3s */
   box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
     rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
-  background-color: #F2F5DF;
+  background-color: #CAF0F8;
 }
 
 /* Popout menu */
@@ -202,16 +201,16 @@ ul a {
 .footer-contact-me {
   display: flex;
   font-size: 1em;
-
-  border: 2px solid black;
   flex-direction: row;
+  border-radius: 5px;
   justify-content: space-around;
   width: 100%;
   height: auto;
   padding: 0.8em;
   margin-top: 0.8em;
-}
 
-.footer-contact-me .contact-me-title-header {
-  font-size: 1.5em;
+
+  .contact-me-title-header {
+    font-size: 1.5em;
+  }
 }
