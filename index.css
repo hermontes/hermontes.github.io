@@ -35,7 +35,7 @@ nav .regular-navigation {
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
-    align-items: center;
+    align-items: baseline;
 
   }
  
