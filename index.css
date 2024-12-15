@@ -30,7 +30,7 @@ nav {
 }
 nav .regular-navigation {
   max-width: 100%;
-  padding: 0em 4em 0em 1em;
+  padding: 0em 3em 0em 1em;
   margin-bottom: 0.7em;
 
   /* remove list styling from nav */
@@ -165,7 +165,6 @@ a {
     /* any transform changes should happen over 0.3s */
     box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
       rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
-    background-color: #A9D6E5;
 
   }
 
