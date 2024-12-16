@@ -218,7 +218,7 @@ a {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .box-container-content .image-container {
     display: none;
   }
