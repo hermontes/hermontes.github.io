@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Open Sans;
+  font-family: "Raptorv 3 Premium";
   color: black;
   font-size: 16px;
   background-color:white ;
@@ -14,8 +14,6 @@ body {
 }
 .item1 {
   font-size: 1.5em;
-  font-weight: bold;
-  letter-spacing: .1em;
 }
 
 .container {
@@ -25,7 +23,6 @@ body {
   margin: 0 auto;
 }
 nav {
-  background-color: #82e1d2;
   border-radius: 10px;
 }
 nav .regular-navigation {
@@ -154,38 +151,95 @@ a {
   justify-content: center;
   width: 80%;
   flex-direction: column;
+}
 
-  /* Behavior of individual boxes */
-  .box-item {
-    flex: 50%;
-    color: black;
-    border-radius: 10px;
+.introduction-items {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center; 
+  justify-self: center; 
+  margin: 2em 0em;
+  padding: 2em 0;
+  align-items: center;
+  
+}
+/* Personal intro text box */
 
-    margin: 8px 8px;
-    /* any transform changes should happen over 0.3s */
-    box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
-      rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
+.personal-info {
+  width: 45%;
+  background-color: #f5fffa; /* Subtle light background */
+  border-radius: 8px; /* Smooth corners */
+  padding: 1em;
+}
+.personal-info .job-title {
+  font-size: 1.5em; 
+  font-weight: 400; 
+  color: #555; 
+  margin-bottom: 1.5em; 
 
-  }
+}
+.personal-info .personal-name {
+  font-weight: 800;
+  letter-spacing: -.02em;
+  font-size: 2em;
+  color: #333; 
+  margin-bottom: 0.3em; 
 
-  .box-container-content {
-    display: flex;
-  }
+}
 
-  .box-container-content .text-description {
-    padding: 1em;
+.background-info {
+  width: 50%;
+  padding: 1em;
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: 600;
+}
 
-  }
-  .box-container-content .image-container img {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
+.background-info .main-description {
+  margin-bottom: 1em;
+  color:#444;
+  line-height: 1.4;
+  font-size: 1.1em;
+}
 
-  .skills-container {
-    display: flex;
-    justify-content: flex-start;
+.background-info .connect {
+  color: #666;
+}
 
-  }
+/* Behavior of individual boxes */
+
+.box-item {
+  flex: 50%;
+  color: black;
+  border-radius: 10px;
+
+  margin: 8px 8px;
+  /* any transform changes should happen over 0.3s */
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
+    rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
+
+}
+
+.box-container-content {
+  display: flex;
+}
+
+.box-container-content .text-description {
+  padding: 1em 1.5em;
+
+}
+.box-container-content .image-container img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .individual-skill {
