@@ -24,7 +24,6 @@ body {
 }
 nav {
   font-family: 'Poppins', sans-serif; /* Headings */
-
   border-radius: 10px;
 }
 nav .regular-navigation {
@@ -80,17 +79,12 @@ a {
 }
 
 
-
 #content {
   height: auto;
 }
 .main-page {
   justify-content: center;
 }
-
-
-
-
 
 /* Popout menu */
 .header-menu-popout {
@@ -146,7 +140,6 @@ a {
 }
 
 
-
 /* Box experience css */
 .experience-container { 
   /* controls ALL boxes behavior */
@@ -166,8 +159,8 @@ a {
   align-items: center;
   
 }
-/* Personal intro text box */
 
+/* Personal intro text box */
 .personal-info {
   width: 45%;
   background-color: #f5fffa; /* Subtle light background */
@@ -179,7 +172,6 @@ a {
   font-weight: 400; 
   color: #555; 
   margin-bottom: 1.5em; 
-
 }
 .personal-info .personal-name {
   font-weight: 800;
@@ -187,7 +179,6 @@ a {
   font-size: 2em;
   color: #333; 
   margin-bottom: 0.3em; 
-
 }
 
 .background-info {
@@ -210,7 +201,6 @@ a {
 }
 
 /* Behavior of individual boxes */
-
 .box-item {
   flex: 50%;
   color: black;
@@ -220,7 +210,6 @@ a {
   /* any transform changes should happen over 0.3s */
   box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
     rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
-
 }
 
 .box-container-content {
@@ -279,15 +268,6 @@ a {
     display: none;
   }
 }
-
-/* @media (max-width: 1200px) {
-  .box-item {
-    flex: 100%;
-  }
-  .experience-container {
-    flex-direction: column;
-  }
-} */
 
 /* 0 to 600 do this */
 @media (max-width: 600px) {
