@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Raptorv 3 Premium";
+  font-family: 'Source Code Pro', monospace;
   color: black;
   font-size: 16px;
   background-color:white ;
@@ -23,6 +23,8 @@ body {
   margin: 0 auto;
 }
 nav {
+  font-family: 'Poppins', sans-serif; /* Headings */
+
   border-radius: 10px;
 }
 nav .regular-navigation {
