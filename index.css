@@ -219,10 +219,16 @@ a {
     rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
 }
 
+.image-container {
+  width: 40%;
+}
 .box-container-content {
   display: flex;
 }
 
+.text-description {
+  width: 60%;
+}
 .box-container-content .text-description {
   padding: 1em 1.5em;
 
@@ -280,9 +286,10 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 1200px) {
-  .box-container-content .image-container {
-    display: none;
+@media (max-width: 900px) {
+  
+  .box-container-content {
+    flex-direction: column;
   }
 }
 
