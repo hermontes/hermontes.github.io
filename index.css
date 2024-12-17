@@ -27,9 +27,8 @@ nav {
   border-radius: 10px;
 }
 nav .regular-navigation {
-  width: 95%;
+  width: 80%;
   justify-self: center;
-  padding: 0em 3em 0em 1em;
   margin-bottom: 0.7em;
 
   /* remove list styling from nav */
