@@ -161,10 +161,9 @@ a {
   display: flex;
   width: 80%;
   justify-content: space-evenly;
-  align-items: center; 
-  justify-self: center; 
   margin: 2em 0em;
   padding: 2em 0;
+  justify-self: center; 
   align-items: center;
   
 }
@@ -272,6 +271,16 @@ a {
   }
 }
 
+@media (max-width: 900px) {
+
+  .introduction-items {
+    flex-direction: column;
+  }
+
+  .introduction-items .personal-info, .background-info {
+    width: 100%;
+  }
+}
 @media (max-width: 1200px) {
   .box-container-content .image-container {
     display: none;
