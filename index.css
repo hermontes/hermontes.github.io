@@ -25,10 +25,10 @@ body {
 nav {
   font-family: 'Poppins', sans-serif; /* Headings */
   border-radius: 10px;
-
 }
 nav .regular-navigation {
-  max-width: 100%;
+  width: 95%;
+  justify-self: center;
   padding: 0em 3em 0em 1em;
   margin-bottom: 0.7em;
 
