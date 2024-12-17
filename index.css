@@ -25,6 +25,7 @@ body {
 nav {
   font-family: 'Poppins', sans-serif; /* Headings */
   border-radius: 10px;
+
 }
 nav .regular-navigation {
   max-width: 100%;
@@ -42,14 +43,22 @@ nav .regular-navigation {
   .navRightSide {
     justify-content: space-between;
     align-items: center;
-    padding-right: 8px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color:black;
   }
 
+  .navRightSide a {
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+    opacity: .8;
+    color: #777;
+  }
+
   .navRightSide a:hover {
-    color: #333333;
+    opacity: .9;
+    color: #333;
     cursor: pointer;
+    transform: translate(0px,-2px);
   }
 
   /* Nav: Resume */
@@ -191,7 +200,7 @@ a {
 
 .background-info .main-description {
   margin-bottom: 1em;
-  color:#444;
+  color:#666;
   line-height: 1.4;
   font-size: 1.1em;
 }
