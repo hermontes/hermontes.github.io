@@ -66,6 +66,13 @@ nav .regular-navigation {
   }
 }
 
+.exit-image:hover {
+  transform: rotateZ(90deg);
+}
+
+.exit-image {
+  transition: 0.5s;
+}
 .burger-button {
   padding: 3px 6px;
   border-radius: 4px;
