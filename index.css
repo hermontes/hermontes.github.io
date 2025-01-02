@@ -5,9 +5,9 @@
 
 body {
   font-family: 'Source Code Pro', monospace;
-  color: black;
+  color: #2F3E46;
   font-size: 16px;
-  background-color:#FFFAF2;
+  background-color:#FAF3E0;
 }
 .flex {
   display: flex;
@@ -176,8 +176,8 @@ a {
 /* Personal intro text box */
 .personal-info {
   width: 45%;
-  background-color: #f5fffa; /* Subtle light background */
-  border-radius: 8px; /* Smooth corners */
+  background-color: #F0FFF4; 
+  border-radius: 8px; 
   padding: 1em;
 }
 .personal-info .job-title {
@@ -190,7 +190,6 @@ a {
   font-weight: 800;
   letter-spacing: -.02em;
   font-size: 2em;
-  color: #333; 
   margin-bottom: 0.3em; 
 }
 
@@ -230,6 +229,7 @@ a {
 }
 .box-container-content {
   display: flex;
+  color:#444444;
 }
 
 .text-description {
@@ -258,7 +258,8 @@ a {
   padding: 5px;
   border-radius: 6px;
   margin-right: 0.4em;
-  background-color: #004a77;
+  /* #38B2AC */
+  background-color: #E76F51; 
   font-weight: 700;
   text-transform: uppercase;
 }
