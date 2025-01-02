@@ -233,6 +233,7 @@ a {
 
 .text-description {
   width: 60%;
+  font-size: 1.1em;
 }
 .box-container-content .text-description {
   padding: 1em 1.5em;
