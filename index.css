@@ -56,7 +56,6 @@ nav .regular-navigation {
   .navRightSide a:hover {
     opacity: .9;
     color: #333;
-    cursor: pointer;
     transform: translate(0px,-2px);
   }
 
@@ -293,13 +292,23 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 900px) {
-  
+@media (max-width: 1100px) {
+
+  .image-container, .text-description {
+    width: 100%;
+  }
   .box-container-content {
     flex-direction: column;
   }
-}
+  .box-item {
+    width: 100%;
+  }
 
+  .experience-container {
+    align-items: center;
+  }
+}
+ 
 /* 0 to 600 do this */
 @media (max-width: 600px) {
 
