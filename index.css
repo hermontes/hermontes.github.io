@@ -224,7 +224,10 @@ a {
 }
 
 .image-container {
-  width: 40%;
+  display: flex;
+  flex: 1;
+  align-items: center; 
+
 }
 .box-container-content {
   display: flex;
@@ -232,7 +235,7 @@ a {
 }
 
 .text-description {
-  width: 60%;
+  flex: 1.2;
   font-size: 1.1em;
   line-height: 1.3em;
 }
@@ -302,6 +305,7 @@ a {
   }
   .box-container-content {
     flex-direction: column;
+    align-items: flex-start;
   }
   .box-item {
     width: 100%;
