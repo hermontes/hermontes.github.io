@@ -145,7 +145,7 @@ a {
   }
 
   .burger-menu:active {
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: rgb(220, 219, 219);
   }
   .burger-button:active {
