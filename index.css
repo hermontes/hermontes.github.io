@@ -103,18 +103,18 @@ a {
 /* Popout menu */
 .header-menu-popout {
   display: flex;
-  font-size: 1.5em;
-
-  align-items: center;
-  flex-direction: column;
-  padding-top: 4em;
-  background-color: #e3e5e3;
+  height: 100%;
   z-index: 1;
   position: fixed;
-  height: 100%;
   width: 0;
   top: 0;
   left: 0;
+  font-size: 1.5em;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4em;
+  background-color:#FAF3E0;
+
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s;
 
