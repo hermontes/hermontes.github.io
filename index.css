@@ -67,6 +67,8 @@ nav .regular-navigation {
 
 .exit-image:hover {
   transform: rotateZ(90deg);
+  /* background-color: #f1f3f4; */
+
 }
 
 .exit-image {
@@ -146,7 +148,7 @@ a {
 
   .burger-menu:active {
     border-radius: 10px;
-    background-color: rgb(220, 219, 219);
+    background-color: #f1f3f4;
   }
   .burger-button:active {
     transform: scaleY(1.04);
