@@ -267,33 +267,71 @@ a {
 /* footer css: */
 .footer-contact-me {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% auto;
+  justify-content: center;
+
   font-size: 1em;
   border-radius: 5px;
-  justify-content: space-around;
   width: 100%;
-  height: auto;
-  padding: 1em;
+  padding: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   margin-top: 0.8em;
-  gap: 1em;
+  gap: 5em;
   background-color: #e6e0d4;
 
   .contact-me-title-header {
-    font-size: 1.5em;
+    display: flex;
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+    gap: 0.3em;
+    span {
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+
   }
 
   .contact-details {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1.5em;
     div {
       display: inline;
+
+      span a i{
+        /* space between icon and text */
+        margin-right: 2px;
+      }
+      a {
+        color: #333; /* Default link color */
+      }
+      a:hover {
+        color: #2A9D8F; 
+        text-decoration: underline;
+      }
     }
+
+    
   }
 }
+@media (max-width: 768px) {
+  .contact-me-title-header {
+    justify-content: center;
+  }
+  .footer-contact-me {
+    grid-template-columns: 1fr; /* Stacking elements */
+    gap: 3em;
+    text-align: center;
+  }
 
+  .contact-details {
+    justify-content: center; 
+    gap: 1em; 
+  }
+}
 @media (max-width: 900px) {
   .introduction-items {
     flex-direction: column;
