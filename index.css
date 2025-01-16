@@ -4,10 +4,10 @@
 }
 
 body {
-  font-family: 'Source Code Pro', monospace;
-  color: #2F3E46;
+  font-family: "Source Code Pro", monospace;
+  color: #2f3e46;
   font-size: 16px;
-  background-color:#FAF3E0;
+  background-color: #faf3e0;
 }
 .flex {
   display: flex;
@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 nav {
-  font-family: 'Poppins', sans-serif; /* Headings */
+  font-family: "Poppins", sans-serif; /* Headings */
   border-radius: 10px;
 }
 nav .regular-navigation {
@@ -38,25 +38,25 @@ nav .regular-navigation {
     padding: 0;
     align-items: baseline;
   }
- 
+
   .navRightSide {
     justify-content: space-between;
     align-items: center;
     font-size: 1.1em;
-    color:black;
+    color: black;
   }
 
   .navRightSide a {
     display: inline-block;
     transition: transform 0.2s ease, color 0.2s ease;
-    opacity: .8;
+    opacity: 0.8;
     color: #777;
   }
 
   .navRightSide a:hover {
-    opacity: .9;
+    opacity: 0.9;
     color: #333;
-    transform: translate(0px,-2px);
+    transform: translate(0px, -2px);
   }
 
   /* Nav: Resume */
@@ -68,7 +68,6 @@ nav .regular-navigation {
 .exit-image:hover {
   transform: rotateZ(90deg);
   /* background-color: #f1f3f4; */
-
 }
 
 .exit-image {
@@ -94,7 +93,6 @@ a {
   padding-bottom: 2px;
 }
 
-
 #content {
   height: auto;
 }
@@ -115,7 +113,7 @@ a {
   align-items: center;
   flex-direction: column;
   padding-top: 4em;
-  background-color:#FAF3E0;
+  background-color: #faf3e0;
 
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s;
@@ -155,9 +153,8 @@ a {
   }
 }
 
-
 /* Box experience css */
-.experience-container { 
+.experience-container {
   /* controls ALL boxes behavior */
   justify-content: center;
   width: 80%;
@@ -170,28 +167,27 @@ a {
   justify-content: space-evenly;
   margin: 2em 0em;
   padding: 2em 0;
-  justify-self: center; 
+  justify-self: center;
   align-items: center;
-  
 }
 
 /* Personal intro text box */
 .personal-info {
   width: 40%;
-  background-color: #E6F7F1; 
-  border-radius: 8px; 
+  background-color: #e6f7f1;
+  border-radius: 8px;
   padding: 1em;
 }
 .personal-info .job-title {
-  font-size: 1.5em; 
-  font-weight: 400; 
-  color: #3A3A3A; 
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #3a3a3a;
 }
 .personal-info .personal-name {
   font-weight: 800;
-  letter-spacing: -.02em;
+  letter-spacing: -0.02em;
   font-size: 2em;
-  margin-bottom: 0.3em; 
+  margin-bottom: 0.3em;
 }
 
 .background-info {
@@ -204,7 +200,7 @@ a {
 
 .background-info .main-description {
   margin-bottom: 1em;
-  color:#666;
+  color: #666;
   line-height: 1.4;
   font-size: 1.1em;
 }
@@ -228,12 +224,11 @@ a {
 .image-container {
   display: flex;
   flex: 1;
-  align-items: center; 
-
+  align-items: center;
 }
 .box-container-content {
   display: flex;
-  color:#444444;
+  color: #444444;
 }
 
 .text-description {
@@ -243,7 +238,6 @@ a {
 }
 .box-container-content .text-description {
   padding: 1em 1.5em;
-
 }
 .box-container-content .image-container img {
   width: 100%;
@@ -256,7 +250,6 @@ a {
 .skills-container {
   display: flex;
   justify-content: flex-start;
-
 }
 
 .individual-skill {
@@ -266,52 +259,54 @@ a {
   border-radius: 6px;
   margin-right: 0.4em;
   /* #38B2AC */
-  background-color: #E76F51; 
+  background-color: #e76f51;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-
 /* footer css: */
 .footer-contact-me {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   font-size: 1em;
-  flex-direction: row;
   border-radius: 5px;
   justify-content: space-around;
   width: 100%;
   height: auto;
-  padding: 0.8em;
+  padding: 1em;
   margin-top: 0.8em;
-  background-color: #E6E0D4;
+  gap: 1em;
+  background-color: #e6e0d4;
 
   .contact-me-title-header {
     font-size: 1.5em;
   }
 
-  div {
+  .contact-details {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2px;
+    flex-wrap: wrap;
+    gap: 2em;
+    div {
+      display: inline;
+    }
   }
-  
 }
 
-
 @media (max-width: 900px) {
-
   .introduction-items {
     flex-direction: column;
   }
 
-  .introduction-items .personal-info, .background-info {
+  .introduction-items .personal-info,
+  .background-info {
     width: 100%;
   }
 }
 @media (max-width: 1100px) {
-
-  .image-container, .text-description {
+  .image-container,
+  .text-description {
     width: 100%;
   }
   .box-container-content {
@@ -326,10 +321,9 @@ a {
     align-items: center;
   }
 }
- 
+
 /* 0 to 600 do this */
 @media (max-width: 600px) {
-
   nav .regular-navigation {
     padding: 0em 1em 0em 1em;
   }
