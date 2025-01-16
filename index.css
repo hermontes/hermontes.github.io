@@ -338,6 +338,7 @@ a {
     text-align: center;
     margin-bottom: 1px;
     padding: 0;
+    width: 70%;
   }
 
   .personal-info {
@@ -363,6 +364,7 @@ a {
   }
 
   .experience-container {
+    width: 50%;
     align-items: center;
   }
 }
