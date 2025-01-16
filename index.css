@@ -288,7 +288,16 @@ a {
   .contact-me-title-header {
     font-size: 1.5em;
   }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  
 }
+
 
 @media (max-width: 900px) {
 
