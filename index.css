@@ -184,7 +184,6 @@ a {
   letter-spacing: -0.02em;
   font-size: 2em;
   margin-bottom: 0.3em;
-
 }
 
 .background-info {
@@ -272,14 +271,14 @@ a {
   font-size: 1em;
   width: 100%;
   padding: 2em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 0.8em;
   gap: 5em;
   background-color: #e6e0d4;
 
   .contact-me-title-header {
     display: flex;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: bold;
     color: #333;
     align-items: center;
@@ -288,7 +287,6 @@ a {
       font-size: 1.2em;
       vertical-align: middle;
     }
-
   }
 
   .contact-details {
@@ -299,7 +297,7 @@ a {
     div {
       display: inline;
 
-      span a i{
+      span a i {
         /* space between icon and text */
         margin-right: 2px;
       }
@@ -307,12 +305,10 @@ a {
         color: #333; /* Default link color */
       }
       a:hover {
-        color: #2A9D8F; 
+        color: #2a9d8f;
         text-decoration: underline;
       }
     }
-
-    
   }
 }
 @media (max-width: 768px) {
@@ -326,8 +322,8 @@ a {
   }
 
   .contact-details {
-    justify-content: center; 
-    gap: 1em; 
+    justify-content: center;
+    gap: 1em;
   }
 }
 @media (max-width: 1350px) {
