@@ -7,7 +7,7 @@ body {
   font-family: "Source Code Pro", monospace;
   color: #2f3e46;
   font-size: 16px;
-  background-color: #faf3e0;
+  /* background-color: #faf3e0; */
 }
 .flex {
   display: flex;
