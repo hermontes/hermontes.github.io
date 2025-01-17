@@ -61,7 +61,7 @@ nav .regular-navigation {
 
   /* Nav: Resume */
   .item2 {
-    padding-right: 1.6em;
+    padding-right: 3em;
   }
 }
 
@@ -84,9 +84,6 @@ nav .regular-navigation {
   transform: scaleY(1.04);
 }
 
-ul li {
-  padding: 0px;
-}
 a {
   color: inherit;
   text-decoration: none;
@@ -267,11 +264,12 @@ a {
 /* footer css: */
 .footer-contact-me {
   display: grid;
+  position: absolute;
+  left: 0;
+  right: 0;
   grid-template-columns: 30% auto;
   justify-content: center;
-
   font-size: 1em;
-  border-radius: 5px;
   width: 100%;
   padding: 2em;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
