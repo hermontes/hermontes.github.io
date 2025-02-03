@@ -6,7 +6,7 @@
 body {
   font-family: "Source Code Pro", monospace;
   color: #2f3e46;
-  font-size: 16px;
+  font-size: 18px;
   /* background-color: #faf3e0; */
 }
 .flex {
@@ -222,7 +222,7 @@ a {
   display: flex;
   flex: 1;
   align-items: center;
-  max-height: 300px;
+  /* max-height: 300px; */
 }
 .box-container-content {
   display: flex;
@@ -308,20 +308,23 @@ a {
   padding: 1.5em;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .project-item:hover {
-
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px;
 }
 
+
 .project-item h3 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 700;
 }
 
 .project-description {
   font-size: 1.1em;
-  color: #444;
+  color: #555;
 }
 
 .project-links a {
@@ -446,7 +449,7 @@ a {
   }
 
   .experience-container {
-    width: 50%;
+    width: 80%;
     align-items: center;
   }
 }
