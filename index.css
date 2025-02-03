@@ -198,7 +198,6 @@ a {
   padding: 1em;
   font-size: 1.1em;
   text-align: left;
-  font-weight: 600;
 }
 
 .background-info .main-description {
@@ -441,7 +440,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .image-container,
   .text-description {
     width: 100%;
@@ -455,7 +454,7 @@ a {
   }
 
   .experience-container {
-    width: 80%;
+    width: 70%;
     align-items: center;
   }
 }
