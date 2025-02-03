@@ -243,7 +243,37 @@ a {
 
 .skills-container {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: .5em;
+  margin-top: 10px;
+}
+
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.java { background-color: #f89820; } 
+.html { background-color: #DE4B25;}
+.css { background-color: #186BC0;}
+.bootstrap { background-color: #7710F2;}
+.javascript { background-color: #CEB228;}
+.aws { background-color: #ff9900; }
+.docker { background-color: #2496ed; } 
+.react { background-color: #61dbfb; color: black; }
+.python { background-color: #3776ab; } 
+
+.skill-pill:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .individual-skill {
