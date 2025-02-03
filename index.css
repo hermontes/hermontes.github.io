@@ -238,19 +238,21 @@ a {
   flex: 1.2;
   font-size: 1.1em;
   line-height: 1.3em;
-  
-  .fa-arrow-up-right-from-square {
-    transition: transform 0.4s ease; /* Smooth transition */
 
-  }
-  .fa-arrow-up-right-from-square:hover {
-    transform: translate(2px, -1px) scale(1.02); /* Moves right and up */
-  }
   a:hover {
     color: #20b3a2;
   }
   
 }
+
+.fa-arrow-up-right-from-square {
+  transition: transform 0.4s ease; /* Smooth transition */
+
+}
+.fa-arrow-up-right-from-square:hover {
+  transform: translate(2px, -1px) scale(1.02); /* Moves right and up */
+}
+
 .box-container-content .text-description {
   padding: 1em 1.5em;
 }
