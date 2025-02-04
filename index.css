@@ -19,7 +19,7 @@ h1, h2, h3 {
   display: flex;
 }
 .item1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .container {
@@ -503,8 +503,8 @@ a {
   .background-info {
     width: 100%;
   }
-}
-@media (max-width: 1200px) {
+
+  /* Prof experience mobile */
   .image-container {
     width: 100%;
     max-width: 400px;
@@ -521,7 +521,6 @@ a {
     width: 70%;
     align-items: center;
   }
-
   .image-container, .text-description {
     width: 100%;
   }
@@ -545,7 +544,6 @@ a {
 
   .mobile-burger-menu {
     display: flex !important;
-    padding-right: 1em;
   }
   
 }
