@@ -240,7 +240,6 @@ a {
 .text-description {
   flex: 1.2;
   font-size: 1.1em;
-  line-height: 1.3em;
 
   a:hover {
     color: #20b3a2;
