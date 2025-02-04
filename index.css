@@ -311,6 +311,9 @@ a {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+.github { color: black; background-color: white;}
+.bitbucket { background-color: #2684FF;}
+
 .java { background-color: #f89820; } 
 .html { background-color: #DE4B25;}
 .css { background-color: #186BC0;}
@@ -456,7 +459,7 @@ a {
   .testudo {
     display: none;
   }
-  
+
   .contact-me-title-header {
     justify-content: center;
   }
