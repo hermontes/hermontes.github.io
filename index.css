@@ -320,7 +320,7 @@ a {
 .python { background-color: #3776ab; } 
 
 .skill-pill:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
