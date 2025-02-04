@@ -387,8 +387,20 @@ a {
   gap: 5em;
   background-color: #e6e0d4;
 
+  /* Airplane icon hover effect */
+  .contact-me-title-header .fa-paper-plane {
+    transition: transform .7s ease;
+  }
+  
+  .contact-me-title-header:hover {
+    i.fa-paper-plane {
+      transform: rotate(50deg) translate(20px, -30px) ;
+    }
+  }
+
   .contact-me-title-header {
     display: flex;
+    transition: transform 0.8s ease;
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
