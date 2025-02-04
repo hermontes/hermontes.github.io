@@ -77,7 +77,6 @@ nav .regular-navigation {
   transition: 0.5s;
 }
 .burger-button {
-  display: flex;
   align-items: center;
   padding: 3px 6px;
   border-radius: 4px;
@@ -85,9 +84,9 @@ nav .regular-navigation {
   background-color: transparent;
   cursor: pointer;
 }
-#burger-menu-image {
-  width: 1.5em;
-  height: auto;
+
+i#burger-menu-image {
+  font-size: 1.2em;
 }
 
 .burger-button:active {
