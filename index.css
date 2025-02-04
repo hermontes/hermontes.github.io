@@ -224,13 +224,17 @@ a {
 
 .image-container {
   display: flex;
-  flex: 1;
-  align-items: center;
-  /* max-height: 300px; */
+  align-items: center;  
+  justify-content: center;
+  width: 40%;  /* image width */
+  max-width: 300px; 
+  padding: .5em;
 }
 .box-container-content {
   display: flex;
   color: #444444;
+  align-items: center;
+  /* gap: 1em; */
 }
 
 .text-description {
@@ -257,9 +261,9 @@ a {
 }
 .box-container-content .image-container img {
   width: 100%;
-  height: 100%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  height: auto; 
+  object-fit: contain; 
+  border-radius: 8px; 
 }
 
 .skills-container {
@@ -466,14 +470,14 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 1200px) {
-  .image-container,
-  .text-description {
+@media (max-width: 1000px) {
+  .image-container {
     width: 100%;
+    max-width: 400px;
   }
   .box-container-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .box-item {
     width: 100%;
@@ -486,13 +490,15 @@ a {
 }
 
 /* 0 to 600 do this */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   nav .regular-navigation {
-    padding: 0em 1em 0em 1em;
+    width: 100%;
+    /* padding: 0em 1em 0em 1em; */
   }
 
   nav .burger-menu {
     display: flex;
+    padding-right: 1em;
   }
 
   .navRightSide {
@@ -500,7 +506,7 @@ a {
   }
 }
 /* 600 and above do this */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   /* Removing the burger menu from the navigation header */
   nav .burger-menu {
     display: none;
