@@ -330,7 +330,7 @@ a {
 }
 
 .project-item:hover {
-  transform: scale(1.01);
+  transform: scale(1.002);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px;
 }
 
