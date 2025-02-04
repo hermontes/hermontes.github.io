@@ -216,7 +216,8 @@ a {
   flex: 50%;
   color: black;
   border-radius: 10px;
-  margin: 14px 8px;
+  margin: 20px 10px;
+  padding: 1em;
   /* any transform changes should happen over 0.3s */
   box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
     rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
@@ -232,15 +233,24 @@ a {
 }
 .box-container-content {
   display: flex;
-  color: #444444;
   align-items: center;
-  /* gap: 1em; */
+  /* padding: 1.5em; */
+  background: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .text-description {
   flex: 1.2;
   font-size: 1.1em;
+  line-height: 1.8; /* Improve readability */
+  letter-spacing: 0.02em; /* Slightly more spaced-out letters */
+  color: #333;
+  padding: 1.2em;
 
+  p {
+    margin-bottom: 1em;
+  }
   a:hover {
     color: #20b3a2;
   }
@@ -269,7 +279,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: .5em;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
 .skill-pill {
