@@ -216,8 +216,7 @@ a {
   flex: 50%;
   color: black;
   border-radius: 10px;
-
-  margin: 8px 8px;
+  margin: 14px 8px;
   /* any transform changes should happen over 0.3s */
   box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
     rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px;
