@@ -18,13 +18,36 @@ h1, h2, h3 {
 .flex {
   display: flex;
 }
+/* Name Heading */
 .item1 {
   display: flex;
-  gap: .2em;
+  /* gap: .2em; */
   font-size: 1.4em;
   align-items: center;
 }
+/* Degree info css */
+.cs-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 0.5em;
+  font-weight: bold;
+  color: #4a4a4a;
+  background: #f8f9fa;
+  padding: 4px 0px;
+  margin-left: 5px;
+  border-radius: 6px;
+  width: fit-content;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
 
+.testudo-icon {
+  width: 20px;
+  height: auto;
+}
+
+/* Body css */
 .container {
   max-width: 87.5em;
   flex-direction: column;
@@ -456,7 +479,7 @@ a {
 }
 @media (max-width: 768px) {
   /* Remove testudo in mobile devices */
-  .testudo {
+  .cs-info {
     display: none;
   }
 
