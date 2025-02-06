@@ -77,20 +77,20 @@ nav .regular-navigation {
     padding-right: 1em;
   }
 
-  .navRightSide {
+  .nav-right-side {
     justify-content: space-between;
     align-items: center;
     font-size: 1.1em;
     color: black;
   }
 
-  .navRightSide a {
-    transition: transform 0.2s ease, color 0.2s ease;
+  .nav-right-side li {
+    transition: transform .5s ease, color 0.5s ease;
     opacity: 0.8;
     color: #777;
   }
 
-  .navRightSide a:hover {
+  .nav-right-side li:hover {
     opacity: 0.9;
     color: #333;
     transform: translate(0px, -2px);
@@ -590,7 +590,7 @@ a {
     width: 90%;
   }
 
-  .navRightSide {
+  .nav-right-side {
     display: none !important;
   }
 
