@@ -85,7 +85,7 @@ nav .regular-navigation {
   }
 
   .nav-right-side li {
-    transition: transform .5s ease, color 0.5s ease;
+    transition: transform .3s ease, color 0.3s ease;
     opacity: 0.8;
     color: #777;
   }
