@@ -8,6 +8,7 @@ body {
   color: #2f3e46;
   font-size: 18px;
   line-height: 1.7;
+  height: 100%;
 }
 
 h1,
@@ -433,9 +434,6 @@ a {
 /* footer css: */
 .footer-contact-me {
   display: grid;
-  position: absolute;
-  left: 0;
-  right: 0;
   grid-template-columns: 30% auto;
   justify-content: center;
   font-size: 1em;
