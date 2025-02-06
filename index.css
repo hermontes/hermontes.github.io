@@ -193,7 +193,7 @@ a {
 .experience-container {
   /* controls ALL boxes behavior */
   justify-content: center;
-  width: 72%;
+  max-width: 72%;
   flex-direction: column;
 }
 
