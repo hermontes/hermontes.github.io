@@ -4,14 +4,16 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2f3e46;
   font-size: 18px;
-  line-height: 1.70; 
+  line-height: 1.7;
 }
 
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -61,7 +63,7 @@ nav {
   border-radius: 10px;
 }
 nav .regular-navigation {
-  width:80%;
+  width: 80%;
   justify-self: center;
   margin-bottom: 0.7em;
 
@@ -93,8 +95,6 @@ nav .regular-navigation {
     color: #333;
     transform: translate(0px, -2px);
   }
-
-
 }
 
 .exit-image:hover {
@@ -257,11 +257,11 @@ a {
 
 .image-container {
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: center;
-  width: 48%;  /* image width */
-  max-width: 300px; 
-  padding: .5em;
+  width: 48%; /* image width */
+  max-width: 300px;
+  padding: 0.5em;
 }
 .box-container-content {
   display: flex;
@@ -286,7 +286,6 @@ a {
   a:hover {
     color: #20b3a2;
   }
-  
 }
 .highlight {
   /* font-weight: bold; */
@@ -295,12 +294,10 @@ a {
   /* padding: 0.1em; */
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .fa-arrow-up-right-from-square {
   transition: transform 0.4s ease; /* Smooth transition */
-
 }
 .fa-arrow-up-right-from-square:hover {
   transform: translate(2px, -1px) scale(1.02); /* Moves right and up */
@@ -311,15 +308,15 @@ a {
 }
 .box-container-content .image-container img {
   width: 100%;
-  height: auto; 
-  object-fit: contain; 
-  border-radius: 8px; 
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  gap: .5em;
+  gap: 0.5em;
   margin-top: 1em;
 }
 
@@ -336,18 +333,42 @@ a {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.github { color: black; background-color: white;}
-.bitbucket { background-color: #2684FF;}
+.github {
+  color: black;
+  background-color: white;
+}
+.bitbucket {
+  background-color: #2684ff;
+}
 
-.java { background-color: #f89820; } 
-.html { background-color: #DE4B25;}
-.css { background-color: #186BC0;}
-.bootstrap { background-color: #7710F2;}
-.javascript { background-color: #CEB228;}
-.aws { background-color: #ff9900; }
-.docker { background-color: #2496ed; } 
-.react { background-color: #61dbfb; color: black; }
-.python { background-color: #3776ab; } 
+.java {
+  background-color: #f89820;
+}
+.html {
+  background-color: #de4b25;
+}
+.css {
+  background-color: #186bc0;
+}
+.bootstrap {
+  background-color: #7710f2;
+}
+.javascript {
+  background-color: #ceb228;
+}
+.aws {
+  background-color: #ff9900;
+}
+.docker {
+  background-color: #2496ed;
+}
+.react {
+  background-color: #61dbfb;
+  color: black;
+}
+.python {
+  background-color: #3776ab;
+}
 
 .skill-pill:hover {
   transform: scale(1.08);
@@ -355,7 +376,6 @@ a {
 }
 
 .projects-container {
-
   width: 80%;
   margin-top: 1.6em;
   padding: 2em;
@@ -391,7 +411,6 @@ a {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px;
 }
 
-
 .project-item h3 {
   font-size: 1.8em;
   font-weight: 700;
@@ -401,7 +420,6 @@ a {
   font-size: 1.1em;
   color: #555;
 }
-
 
 .project-links a {
   display: inline-block;
@@ -414,7 +432,6 @@ a {
 .project-links a:hover {
   color: #1f7f7b;
 }
-
 
 /* footer css: */
 .footer-contact-me {
@@ -434,12 +451,12 @@ a {
 
   /* Airplane icon hover effect */
   .contact-me-title-header .fa-paper-plane {
-    transition: transform .7s ease;
+    transition: transform 0.7s ease;
   }
-  
+
   .contact-me-title-header:hover {
     i.fa-paper-plane {
-      transform: rotate(50deg) translate(20px, -30px) ;
+      transform: rotate(50deg) translate(20px, -30px);
     }
   }
 
@@ -519,7 +536,6 @@ a {
   .project-item {
     padding: 1em;
   }
-
 }
 @media (max-width: 1350px) {
   .introduction-items {
@@ -556,7 +572,8 @@ a {
     width: 70%;
     align-items: center;
   }
-  .image-container, .text-description {
+  .image-container,
+  .text-description {
     width: 100%;
   }
 }
@@ -580,6 +597,4 @@ a {
   .mobile-burger-menu {
     display: flex !important;
   }
-  
 }
-
