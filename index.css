@@ -77,7 +77,7 @@ nav .regular-navigation {
   .nav-right-side {
     justify-content: space-between;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1em;
     color: black;
   }
 
@@ -142,7 +142,7 @@ a {
   width: 0;
   top: 0;
   left: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   align-items: center;
   flex-direction: column;
   padding-top: 4em;
