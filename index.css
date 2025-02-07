@@ -11,10 +11,6 @@ body {
   height: 100%;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
-}
-
 .flex {
   display: flex;
 }
@@ -22,8 +18,9 @@ h1, h2, h3 {
 .item1 {
   display: flex;
   /* gap: .2em; */
-  font-size: 1.4em;
+  font-size: 1.3em;
   align-items: center;
+  font-weight: 700;
 }
 /* Degree info css */
 .cs-info {
@@ -195,7 +192,7 @@ a {
   display: flex;
   width: 72%;
   justify-content: space-evenly;
-  margin: 2em 0em;
+  margin: .3em 0em;
   justify-self: center;
   align-items: center;
 }
