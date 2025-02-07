@@ -11,11 +11,8 @@ body {
   height: 100%;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+h1, h2, h3 {
+  font-weight: 700;
 }
 
 .flex {
@@ -56,7 +53,6 @@ h3 {
   margin: 0 auto;
 }
 nav {
-  font-family: "Poppins", sans-serif; /* Headings */
   border-radius: 10px;
 }
 nav .regular-navigation {
@@ -70,7 +66,7 @@ nav .regular-navigation {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    padding-left: 1em; /* Reduce initial padding */
+    padding-left: 1em; 
     padding-right: 1em;
   }
 
@@ -245,7 +241,7 @@ a {
   flex: 50%;
   color: black;
   border-radius: 10px;
-  margin: 20px 10px;
+  margin: 10px 10px;
   padding: 1em;
   /* any transform changes should happen over 0.3s */
   box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 4px 2px,
@@ -285,10 +281,8 @@ a {
   }
 }
 .highlight {
-  /* font-weight: bold; */
-  background-color: #ffeb3b; /* Yellow background */
-  color: #333; /* Dark text color */
-  /* padding: 0.1em; */
+  background-color: #ffeb3b; 
+  color: #333; 
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
