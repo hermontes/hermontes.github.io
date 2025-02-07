@@ -124,9 +124,11 @@ a {
   height: auto;
 }
 .main-page {
+  max-width: 80%; 
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 /* Popout menu */
@@ -186,7 +188,6 @@ a {
 .experience-container {
   /* controls ALL boxes behavior */
   justify-content: center;
-  max-width: 72%;
   flex-direction: column;
 }
 
@@ -485,6 +486,9 @@ a {
   }
 }
 @media (max-width: 768px) {
+  .main-page {
+    max-width: 100%;
+  }
   /* Remove testudo in mobile devices */
   .cs-info {
     display: none;
@@ -512,7 +516,7 @@ a {
 
   /* Personal intro */
   .introduction-items {
-    width: 90%;
+    width: 95%;
   }
 
   /* Projects section */
@@ -531,7 +535,6 @@ a {
     text-align: center;
     margin-bottom: 1px;
     padding: 0;
-    width: 70%;
   }
 
   .personal-info {
@@ -557,7 +560,7 @@ a {
   }
 
   .experience-container {
-    width: 70%;
+    max-width: 90%;
     align-items: center;
   }
   .image-container,
