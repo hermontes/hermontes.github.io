@@ -191,7 +191,7 @@ a {
 
 .introduction-items {
   display: flex;
-  width: 60em;
+  max-width: 60em;
   justify-content: space-evenly;
   margin: 0.3em 0em;
   justify-self: center;
@@ -484,60 +484,7 @@ a {
     }
   }
 }
-@media (max-width: 768px) {
-  .main-page {
-    max-width: 100%;
-  }
-  /* Remove testudo & degree in mobile devices */
-  .cs-info {
-    display: none;
-  }
 
-  .contact-me-title-header {
-    justify-content: center;
-  }
-  .footer-contact-me {
-    grid-template-columns: 1fr; /* Stacking elements */
-    gap: 3em;
-    text-align: center;
-  }
-
-  .contact-details {
-    justify-content: center;
-    gap: 1em;
-  }
-
-  /* prof experiences */
-  .experience-container {
-    width: 100%;
-    align-items: center;
-  }
-
-  /* Personal intro */
-  .introduction-items {
-    width: 95%;
-  }
-
-  /* Projects section */
-  .projects-container {
-    width: 90%;
-    margin: 1.5em auto;
-  }
-
-  .project-item {
-    padding: 1em;
-  }
-
-  .box-container-content .text-description {
-    /* remove padding for mobile */
-    padding: 0em 0em;
-
-    /* experience titles */
-    h3 {
-      font-size: 1em;
-    }
-  }
-}
 @media (max-width: 1350px) {
   nav .regular-navigation,
   .projects-container {
@@ -581,6 +528,65 @@ a {
   .image-container,
   .text-description {
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-page {
+    max-width: 100%;
+  }
+  /* Remove testudo & degree in mobile devices */
+  .cs-info {
+    display: none;
+  }
+
+  .contact-me-title-header {
+    justify-content: center;
+  }
+  .footer-contact-me {
+    grid-template-columns: 1fr; /* Stacking elements */
+    gap: 3em;
+    text-align: center;
+  }
+
+  .contact-details {
+    justify-content: center;
+    gap: 1em;
+  }
+
+  /* prof experiences */
+  .experience-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Personal intro */
+  .introduction-items {
+    width: 95%;
+  }
+
+  .personal-info .personal-name {
+    font-size: 1.6em;
+  }
+
+  /* Projects section */
+  .projects-container {
+    width: 90%;
+    margin: 1.5em auto;
+  }
+
+  .project-item {
+    padding: 1em;
+  }
+
+  .box-container-content .text-description {
+    /* remove padding for mobile */
+    padding: 0em 0em;
+
+    /* experience titles */
+    h3 {
+      font-size: 1em;
+    }
   }
 }
 
